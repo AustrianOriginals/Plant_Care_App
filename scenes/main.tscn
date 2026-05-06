@@ -1,0 +1,38 @@
+[gd_scene format=3 uid="uid://clj53v8akw7w5"]
+
+[node name="Main" type="Control" unique_id=922277143]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 231.0
+offset_top = 170.0
+offset_right = 231.0
+offset_bottom = 170.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=998068318]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_right = 16
+theme_override_constants/margin_bottom = 16
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer" unique_id=2043720962]
+layout_mode = 2
+theme_override_constants/separation = 16
+
+[node name="Header" type="Label" parent="MarginContainer/VBoxContainer" unique_id=866762914]
+layout_mode = 2
+text = "My Plants"
+horizontal_alignment = 1
+
+[node name="AddPlantButton" type="Button" parent="MarginContainer/VBoxContainer" unique_id=270440972]
+layout_mode = 2
+text = "Add Plant"
+
+[node name="PlantList" type="VBoxContainer" parent="MarginContainer/VBoxContainer" unique_id=2061792799]
+layout_mode = 2
