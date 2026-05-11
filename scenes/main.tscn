@@ -1,5 +1,7 @@
 [gd_scene format=3 uid="uid://clj53v8akw7w5"]
 
+[ext_resource type="Script" uid="uid://bg3l2yht41vq" path="res://ui/main.gd" id="1_o5qli"]
+
 [node name="Main" type="Control" unique_id=922277143]
 layout_mode = 3
 anchors_preset = 15
@@ -11,6 +13,7 @@ offset_right = 231.0
 offset_bottom = 170.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_o5qli")
 
 [node name="MarginContainer" type="MarginContainer" parent="." unique_id=998068318]
 layout_mode = 0
