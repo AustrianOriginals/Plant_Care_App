@@ -11,12 +11,13 @@ config_version=5
 [application]
 
 config/name="Plant_Care_App"
+run/main_scene="uid://clj53v8akw7w5"
 config/features=PackedStringArray("4.6", "Mobile")
 config/icon="res://icon.svg"
 
 [autoload]
 
-app_state="*uid://c6mtgt6gu1i8y"
+AppState="*uid://c6mtgt6gu1i8y"
 
 [display]
 
